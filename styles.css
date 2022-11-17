@@ -52,37 +52,55 @@ body {
   background-color: blue;
   padding-top: 40px;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .selected-menu-text {
   color: white;
-  margin-left: 400px;
+  margin-left: 40%;
   margin-bottom: 0;
 }
 
 .main-content{
   display: flex;
   background-color: #352d2f;
+  justify-content: space-between;
 }
 
 .main-img-with-text {
-  width: 300px;
+  flex-basis: 65%;
   text-align: justify;
-  padding: 30px 80px 10px 80px;
-  margin: 0;
+  padding-top: 30px;
+  /* margin: 0 auto; */
 }
 
 .main-img-with-text img {
+  width: 55%;
   display: block;
-  margin: 0;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .main-img-with-text p {
   margin-top: 10px;
   color: white;
+  text-align: center;
 }
 
 .main-img-with-text a {
   color: blue;
+} 
+
+.news-content {
+  display: flex;
+  background-color:#d9d9d9;
+  flex-basis: 35%;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.news-content a {
+  color: black;
+  font-size: 18px;
+  margin: 10px 0 40px 0;
 }
