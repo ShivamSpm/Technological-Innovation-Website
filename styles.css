@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #352d2f;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+
+.navigation-bar img{
+  float:left;
+  width: 120px;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 14px 15px;
+  font-weight: bold;
+}
+
+.selected-menu {
+  background-color: blue;
+  padding-top: 40px;
+  margin-bottom: 0;
+}
+
+.selected-menu-text {
+  color: white;
+  margin-left: 400px;
+  margin-bottom: 0;
+}
+
+.main-content{
+  display: flex;
+  background-color: #352d2f;
+}
+
+.main-img-with-text {
+  width: 300px;
+  text-align: justify;
+  padding: 30px 80px 10px 80px;
+  margin: 0;
+}
+
+.main-img-with-text img {
+  display: block;
+  margin: 0;
+  /* margin: 0 auto; */
+}
+
+.main-img-with-text p {
+  margin-top: 10px;
+  color: white;
+}
+
+.main-img-with-text a {
+  color: blue;
+}
