@@ -98,9 +98,84 @@ body {
   text-align: center;
 }
 
-
 .news-content a {
   color: black;
   font-size: 18px;
   margin: 10px 0 40px 0;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c42727;
+}
+
+.contact-us-container {
+  display: block;
+  margin-left: 40px;
+  text-align: center;
+}
+.contact-us-container p {
+  margin: 5px 0 5px 0;
+  color: wheat;
+  /* font-weight: 550; */
+}
+
+.follow-us-container p {
+  color: wheat;
+}
+
+.fa {
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #00acee;
+  color: white;
+}
+
+.receive-news-via-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 40px;
+  color: wheat;
+}
+
+.receive-news-via-container p {
+  margin-bottom: 5px;
+}
+
+.receive-news-buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+.receive-news-buttons-container button {
+  background-color: #650000;
+  color: wheat;
+  margin: 0 15px 0 15px;
+}
+
+.receive-news-buttons-container button:hover {
+  opacity: 0.8;
 }
