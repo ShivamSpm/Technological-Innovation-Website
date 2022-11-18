@@ -10,8 +10,8 @@
 </head>
 <body>
 
-    <div class="navigation-bar">
-        <div id="navigation-container">
+    <!-- <div class="navigation-bar" id="navigationBar">
+        <div class="navigation-container">
           <img src="./images/logo-website.png">
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -19,9 +19,25 @@
             <li><a href="#">Music</a></li>
             <li><a href="#">Healthcare</a></li>
             <li><a href="#">Gilded Age</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
           </ul>
         </div>
-    </div>
+    </div> -->
+    <nav>
+        <ul class="menu">
+          <li class="logo"><a href="#"><img src="./images/logo-website.png"></a></li>
+          <li class="item"><a href="index.html">Home</a></li>
+          <li class="item"><a href="weapons.html">Weapons</a></li>
+          <li class="item"><a href="#">Music</a></li>
+          <li class="item"><a href="#">Healthcare</a></li>
+          <li class="item"><a href="#">Gilded Age</a></li>
+          <li class="toggle"><a href="#"><i class="fa fa-bars"></i></a></li>
+        </ul>
+      </nav>
+
     <div class="selected-menu">
         <h1 class="selected-menu-text">Home</h1>
     </div>
@@ -55,5 +71,7 @@
             </div>
         </div>
     </footer>
+    
+    <script src="index.js"></script>
 </body>
 </html>
