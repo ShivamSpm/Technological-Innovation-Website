@@ -3,37 +3,37 @@
     font-weight: 550;
 }
 
-.weapon-main-content-container {
+.main-content-container {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
 
-.ai-content-container {
+.left-content-container {
     flex-basis: 28%;
     margin-left: 10px;
 }
 
-.ai-content-container p {
+.left-content-container p {
     text-align: center;
     margin-top: 10px;
 }
 
-.weapon-img-container {
+.center-img-container {
     flex-basis: 44%;
     margin: 0 10px 0 10px;
 }
 
-.weapon-img-container img {
+.center-img-container img {
     width: 100%;
 }
 
-.cyber-content-container {
+.right-content-container {
     flex-basis: 28%;
     margin-right: 10px;
 }
 
-.cyber-content-container p{
+.right-content-container p{
     text-align: center;
     margin-top: 10px;
 }
@@ -53,25 +53,26 @@ h3 {
 }
 
 @media only screen and (max-width: 850px) {
-    .weapon-main-content-container {
+    .main-content-container {
         flex-direction: column;
     }
 
-    .ai-content-container {
+    .left-content-container {
         margin: 10px;
         order: 2;
     }
 
-    .weapon-img-container {
+    .center-img-container {
         margin: 10px;
         order: 1;
     }
-    .weapon-img-container img {
+    
+    .center-img-container img {
         display: block;
         margin: auto;
     }
     
-    .cyber-content-container {
+    .right-content-container {
         margin: 10px;
         order: 3;
     }
@@ -80,4 +81,12 @@ h3 {
         margin: 10px;
     }
   }
-  
+
+.citations-container {
+    margin: 20px 10px 0 25px;
+    font-size: 1.5vw;
+}
+
+.citations-container li {
+    margin: 15px 0 15px 0;
+}
