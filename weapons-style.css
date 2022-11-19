@@ -1,0 +1,83 @@
+.info-paragraph p{
+    margin: 10px;
+    font-weight: 550;
+}
+
+.weapon-main-content-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.ai-content-container {
+    flex-basis: 28%;
+    margin-left: 10px;
+}
+
+.ai-content-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.weapon-img-container {
+    flex-basis: 44%;
+    margin: 0 10px 0 10px;
+}
+
+.weapon-img-container img {
+    width: 100%;
+}
+
+.cyber-content-container {
+    flex-basis: 28%;
+    margin-right: 10px;
+}
+
+.cyber-content-container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.last-info-container {
+    margin-top: 10px;
+}
+
+.last-info-container p{
+    text-align: center;
+    margin: 10px 20% 10px 20%;
+}
+
+@media only screen and (max-width: 850px) {
+    .weapon-main-content-container {
+        flex-direction: column;
+    }
+
+    .ai-content-container {
+        margin: 10px;
+        order: 2;
+    }
+
+    .weapon-img-container {
+        margin: 10px;
+        order: 1;
+    }
+    .weapon-img-container img {
+        display: block;
+        margin: auto;
+    }
+    
+    .cyber-content-container {
+        margin: 10px;
+        order: 3;
+    }
+
+    .last-info-container p{
+        margin: 10px;
+    }
+  }
+  

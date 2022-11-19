@@ -5,23 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="weapons-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Weapons page</title>
 </head>
 <body>
-    <div class="navigation-bar">
-        <div id="navigation-container">
-          <img src="./images/logo-website.png">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="weapons.html">Weapons</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Healthcare</a></li>
-            <li><a href="#">Gilded Age</a></li>
-          </ul>
-        </div>
-    </div>
+
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#"><img src="./images/logo-website.png"></a></li>
+        <li class="item"><a href="index.html">Home</a></li>
+        <li class="item"><a href="weapons.html">Weapons</a></li>
+        <li class="item"><a href="music.html">Music</a></li>
+        <li class="item"><a href="healthcare.html">Healthcare</a></li>
+        <li class="item"><a href="gilded.html">Gilded Age</a></li>
+        <li class="toggle"><a href="#"><i class="fa fa-bars"></i></a></li>
+      </ul>
+    </nav>
+    
     <div class="selected-menu">
-        <h1 class="selected-menu-text">Weapons</h1>
+        <h1 class="selected-menu-text">Military Weapons</h1>
     </div>
+    <div class="info-paragraph">
+      <p>
+        The use of technology in defense improves military computing thinking for intelligence,
+        surveillance, and reconnaissance (ISR) missions. The use of autonomous weapon systems and equipment safety
+        management by computer vision reduces the number of casualties among soldiers.
+      </p>
+    </div>
+    <div class="weapon-main-content-container">
+      <div class="ai-content-container">
+        <h3>
+          Artificial Intelligence
+        </h3>
+        <p>
+          An AI-based decision-making
+          engine is being developed by a
+          startup named Axon Vision. With
+          the help of computer vision, the
+          startup's edge360 offering gives
+          ground vehicles a complete,
+          automated situational awareness.
+          Another startup named Rebellion
+          develops AI products for the
+          defense. For mission success, the
+          startup employs machine learning
+          and the power of data to prevent
+          risks.
+        </p>
+      </div>
+
+      <div class="weapon-img-container">
+        <img src="./images/weapons-img.PNG" alt="Impacts of Military Technology"/>
+      </div>
+      
+      <div class="cyber-content-container">
+        <h3>
+          Cyber Warfare and Blockchain
+        </h3>
+        <p>
+          Cyber attacks have increased a lot in
+          military systems to steal or damage
+          the classified military information.
+          Additionally, militaries are
+          developing offensive cyber warfare
+          capabilities, including phishing and
+          ransomware. Blockchain ensures
+          data security while sharing
+          information with all parties
+          involved. So, many defense
+          companies are employing blockchain
+          technology.
+        </p>
+      </div>
+    </div>
+    <div class="last-info-container">
+      <h3>
+        Big Data and Analytics
+      </h3>
+      <p>
+        Information is a powerful thing. Using big data, militaries can extract the information
+        and analyze it to their advantage to build weaponry that is better than their
+        opponents. This will give them a huge strategic advantage. Analytics also makes it
+        possible to evaluate data collected from the Internet of medical things infrastructure
+        effectively.
+      </p>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
