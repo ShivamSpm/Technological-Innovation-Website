@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mainstyles.css">
-    <link rel="stylesheet" href="contentstyles.css">
+    <link rel="stylesheet" href="feedbackstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Feedback page</title>
 </head>
@@ -27,6 +27,98 @@
     <div class="selected-menu">
         <h1 class="selected-menu-text">Feedback</h1>
     </div>
-    
+    <div class="form-container"> 
+        <form>    
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="fName">First Name</label>    
+                </div>    
+                <div class="input-container">    
+                    <input type="text" id="fName" name="firstname" placeholder="Your first name.." required>    
+                </div>    
+            </div>    
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="lName">Last Name</label>    
+                </div>    
+                <div class="input-container">    
+                    <input type="text" id="lName" name="lastname" placeholder="Your last name.." required>    
+                </div>    
+            </div>    
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="email">Email</label>    
+                </div>    
+                <div class="input-container">    
+                    <input type="email" id="email" name="mailid" placeholder="Your email.." required>    
+                </div>    
+            </div>
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="birthday">Date of Birth</label>    
+                </div>    
+                <div class="input-container">    
+                    <input type="date" id="birthday" name="birthday" min="1920-01-01" required>    
+                </div>    
+            </div>
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="phone">Phone number</label>    
+                </div>    
+                <div class="input-container">    
+                    <input type="tel" id="phone" name="phone" placeholder="Your phone number.." pattern="[0-9]{3}[0-9]{3}[0-9]{4}">    
+                </div>    
+            </div>     
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="country">Country</label>    
+                </div>    
+                <div class="input-container">    
+                    <select id="country" name="country" required>     
+                        <option value="">Select Country</option>    
+                        <option value="Australia">Australia</option>    
+                        <option value="Canada">Canada</option>    
+                        <option value="USA">USA</option>    
+                        <option value="Russia">Russia</option>    
+                        <option value="Japan">Japan</option>    
+                        <option value="India">India</option>    
+                        <option value="China">China</option>    
+                    </select>    
+                </div>    
+            </div>
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="radioInput">Do you like the website?</label>    
+                </div>    
+                <div class="radio-container">    
+                    <input type="radio" id="radioInput" name="radioinput" required>Yes</input> 
+                    <input type="radio" id="radioInput" name="radioinput" required>No</input>     
+                </div>    
+            </div>    
+
+            <div class="row-container">    
+                <div class="label-container">    
+                    <label for="feed_back">Feedback</label>
+                </div>    
+                <div class="input-container">    
+                    <textarea id="subject" name="subject" placeholder="Write feedback about the website.." style="height:200px"></textarea>    
+                </div>    
+            </div>   
+
+            <div class="submit-container">    
+                <input type="submit" value="Submit">    
+            </div>    
+
+        </form>    
+      </div>
+    <script src="index.js"></script>
+    <script src="feedback.js"></script>
 </body>
 </html>
