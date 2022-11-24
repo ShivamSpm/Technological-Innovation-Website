@@ -1,0 +1,20 @@
+This is a website about information on technological innovation in different fields like Military weapons, Music, Healthcare and latest news about technology is present on the home page. The first page is the Home page which consists of up-to-date news about current issues in technology. The next 3 pages give out information on technologies used in Weapons, Music and Healthcare respectively. References is present on the 5th page where citations of the sources are present. The overall feedback from the user is taken on the 6th page.
+
+Three factors done well:
+1) Since flex is utilized in most places, it was easier to make the website responsive.
+
+2) The information is divided effectively among multiple pages, and a feedback form has been built to collect user comments in order to further improve the website in light of that feedback.
+
+3) The nav bar is well designed to navigate between all the pages.
+
+
+Two factors need improvement:
+1) The home page can be dynamically created by taking the latest news from google and adding it to the website
+
+2) Sub-pages could be created to give out more information on a particular topic.
+
+
+Extras:
+1) Used javascript to add bars in place of top nav bar when the width of website is lowered and added click functionality to have a dropdown like feature. The code is in index.js file.
+2) Used javascript to validate the date of birth in feedback form by not allowing the user to select a date greater than today's date. The code is in feedback.js file.
+3) Added a feedback form for the users to help improve the website further. The code is in feedback.html file. It is the 6th page of the website named Feedback on the top nav bar.

@@ -1,5 +1,4 @@
 
-/* Basic styling */
 *{
   box-sizing: border-box;
   padding: 0;
@@ -14,6 +13,7 @@ body {
 nav {
   background: #222;
   padding: 0 30px;
+  
 }
 
 nav a {
@@ -41,7 +41,6 @@ nav a {
   color: #ccc;
 }
 
-/* Mobile menu */
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -74,8 +73,6 @@ nav a {
   display: block;
 }
 
-
-/* Tablet menu */
 @media all and (min-width: 600px) {
 
   .menu {
@@ -92,7 +89,6 @@ nav a {
 
 }
 
-/* Desktop menu */
 @media all and (min-width: 850px) {
   .menu {
     align-items: center;
@@ -130,6 +126,7 @@ nav a {
   padding-top: 40px;
   margin-bottom: 0;
   width: 100%;
+  
 }
 
 .selected-menu-text {
@@ -137,6 +134,7 @@ nav a {
   margin-left: 40%;
   margin-bottom: 0;
 }
+
 
 .main-content{
   display: flex;
@@ -154,12 +152,21 @@ nav a {
   flex-basis: 65%;
   text-align: justify;
   padding-top: 30px;
+  display: block;
 }
 
 .main-img-with-text img {
   width: 55%;
   display: block;
-  margin: 0 auto;
+  margin: 60px auto 20px auto;
+  transition: all 1s ease; 
+  -webkit-transition: all 1s ease;
+}
+
+.main-img-with-text img:hover {
+  width: 65%;
+  display: block;
+  margin: 60px auto 20px auto;
 }
 
 .main-img-with-text p {
@@ -167,11 +174,12 @@ nav a {
   color: white;
   text-align: center;
   font-size: 1.75vw;
+  
 }
 
 .main-img-with-text a {
   color: blue;
-} 
+}
 
 .news-content {
   display: flex;
