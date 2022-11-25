@@ -3,11 +3,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 body {
   font-family: sans-serif;
   font-size: 1.75vw;
+  background-color: #f2f2f2;
 }
 
 nav {
@@ -36,10 +38,10 @@ nav a {
 .item {
   padding: 10px;
 }
-
-.item a:hover {
-  color: #ccc;
+.active-page, .item:hover {
+  background-color: #666;
 }
+
 
 .menu {
   display: flex;
@@ -109,7 +111,7 @@ nav a {
     position: relative;
     display: block;
     width: auto;
-    margin: 0 15px 0 15px;
+    margin: 0 10px 0 10px;
   }
 
   .item a{
