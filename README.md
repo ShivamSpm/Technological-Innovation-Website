@@ -5,7 +5,7 @@
 <h1 align="center">Technological Innovation Website</h1>
 <div align="center">
      <h4 align="center">This is a responsive Website designed for users interested in reading all the latest news related to Technology in various fields like
-        Weapons, Healthcare and Music.
+        Military Weapons, Healthcare and Music.
      </h4><br/>
      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/><img  
        src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img 
@@ -15,26 +15,22 @@
 
 -----------------------------------------
 ### Overview
-I created this project to provide a platform for individuals passionate about writing and sharing their blogs. As someone who loves reading technical blog posts and writing few myself, I think this website would be very helpful for the people who share the same passion as mine. I have added 6 categories - Art, Science, Technology, Cinema, Design and Food, into which people can create blog post. My main motivation behind developing this website was, I wanted a single place to save blogs I find interesting from different sources.
+This is a website about information on technological innovation in different fields like Military weapons, Music, Healthcare and latest news about technology is present on the home page. The first page is the Home page which consists of up-to-date news about current issues in technology. The next 3 pages give out information on technologies used in Weapons, Music and Healthcare respectively. References is present on the 5th page where citations of the sources are present. The overall feedback from the user is taken on the 6th page.
 
 
 -----------------------------------------
 
 ### Features
 
-* User-friendly interface
-* 6 Categories for easy navigation
-* User authentication for secure posting
-* Editing and deleting blogs by authorized users
+* User-friendly and responsive interface using Flex
+* The nav bar is well designed to navigate between all the pages
+* The information is divided effectively among multiple pages, and a feedback form has been built to collect user comments in order to further improve the website in light of that feedback
 
 -----------------------------------------
 
 ### Implementation
-* Built with React for the front-end, utilizing Node.js for the server-side logic, and integrated with a MySQL database for data management.
-* Created a dynamic Home page that aggregates and displays blog posts from all available categories.
-* Implemented a user-friendly navigation system by incorporating individual category links in the navigation bar. Clicking on a category reveals related blog posts.
-* Designed a Blog Writing page enabling users to compose and publish blogs within any of the six specified categories.
-* Implemented a feature allowing users to click on individual blog posts for reading. Additionally, authorized users possess the capability to edit existing blogs for continuous refinement.
+* Built with HTML, CSS and JavaScript
+* Used Flex to make the website responsive across all the devices
 
 -----------------------------------------
 
@@ -46,3 +42,15 @@ I created this project to provide a platform for individuals passionate about wr
 </p>
 
 <br>
+
+* `Weapons Page`
+<p align="center">
+ <img height=400px src="./assets/images/Weapons_Page.PNG" alt="Home page gif">
+</p>
+
+<br>
+
+* `User Feedback Page`
+<p align="center">
+ <img height=400px src="./assets/images/Feedback_Page.PNG" alt="Home page gif">
+</p>
